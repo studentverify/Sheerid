@@ -23,7 +23,7 @@ export default defineConfig({
   server: {
     host: '0.0.0.0',
     port: 3000,
-    allowedHosts: ['3000-ij2xdlcm29tg7a04koxz5-f78cabac.manusvm.computer']
+    allowedHosts: ["3000-iu9nxyjchpj0rip8rp2zm-4fd92029.manusvm.computer"]
   }
 })
 

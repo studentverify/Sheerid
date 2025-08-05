@@ -24,7 +24,7 @@ const Header = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
             <div className="bg-blue-600 p-2 rounded-lg">
-              <img src="/degree_hat.png" alt="Degree Hat" className="h-8 w-8" />
+              <img src="/degree_hat_light.png" alt="Degree Hat" className="h-8 w-8" />
             </div>
             <div>
               <h1 className="text-xl font-bold text-gray-900">StudentVerify</h1>

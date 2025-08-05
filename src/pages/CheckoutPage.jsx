@@ -170,12 +170,12 @@ const CheckoutPage = () => {
                       {/* Crypto */}
                       <div className="border rounded-lg p-4 bg-white">
                         <h4 className="font-semibold text-gray-900 mb-2">Crypto Payment</h4>
-                        <p className="text-gray-600 mb-2"><strong>ETH:</strong> Send the exact discounted amount worth of ETH to the address: <code className="bg-gray-200 p-1 rounded break-all">0x0D8C7a1BCC99EdE401680Eb72877650a5c480D29</code></p>
+                        <p className="text-gray-600 mb-2"><strong>ETH:</strong> Send the exact discounted amount worth of ETH to the address: <code className="bg-gray-200 p-1 rounded break-all">0xPlaceholderETHAddress</code></p>
                         <div className="flex justify-center mb-2">
                           <img src="/images/eth_qr.png" alt="ETH QR Code" className="w-32 h-32" />
                         </div>
 
-                        <p className="text-gray-600 mb-2"><strong>BTC:</strong> Send the exact discounted amount worth of BTC to the address: <code className="bg-gray-200 p-1 rounded break-all">bc1q93050800040004000400040004000400040004000400040004000400040004</code></p>
+                        <p className="text-gray-600 mb-2"><strong>BTC:</strong> Send the exact discounted amount worth of BTC to the address: <code className="bg-gray-200 p-1 rounded break-all">bc1qPlaceholderBTCAddress</code></p>
                         <div className="flex justify-center mb-2">
                           <img src="/images/btc_qr.png" alt="BTC QR Code" className="w-32 h-32" />
                         </div>
@@ -193,28 +193,7 @@ const CheckoutPage = () => {
 
           {/* Sidebar */}
           <div className="lg:col-span-1">
-            <Card>
-              <CardHeader>
-                <CardTitle>Order Summary</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <div className="space-y-4">
-                  <div className="flex justify-between">
-                    <span className="text-gray-600">Product:</span>
-                    <span className="font-medium">{deal.name}</span>
-                  </div>
-                  <div className="flex justify-between">
-                    <span className="text-gray-600">Price:</span>
-                    <span className="font-medium">${deal.price}</span>
-                  </div>
-                  <Separator />
-                  <div className="flex justify-between font-bold">
-                    <span>Total:</span>
-                    <span>${deal.price}</span>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
+
 
             <Card className="mt-8">
               <CardHeader>
@@ -239,5 +218,8 @@ const CheckoutPage = () => {
 }
 
 export default CheckoutPage
+
+
+
 
 
