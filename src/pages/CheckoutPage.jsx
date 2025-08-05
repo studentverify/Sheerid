@@ -174,3 +174,70 @@ const CheckoutPage = () => {
                         <div className="flex justify-center mb-2">
                           <img src="/images/eth_qr.png" alt="ETH QR Code" className="w-32 h-32" />
                         </div>
+
+                        <p className="text-gray-600 mb-2"><strong>BTC:</strong> Send the exact discounted amount worth of BTC to the address: <code className="bg-gray-200 p-1 rounded break-all">bc1q93050800040004000400040004000400040004000400040004000400040004</code></p>
+                        <div className="flex justify-center mb-2">
+                          <img src="/images/btc_qr.png" alt="BTC QR Code" className="w-32 h-32" />
+                        </div>
+                      </div>
+
+                      <p className="text-gray-600 text-sm mt-4">
+                        <strong>Important:</strong> After payment, please email <a href="mailto:sheeredudeals@gmail.com" className="text-blue-600 hover:underline">sheeredudeals@gmail.com</a> or text <a href="tel:+13477667259" className="text-blue-600 hover:underline">+1(347)-766-7259</a> with the exact names you want verified.
+                      </p>
+                    </div>
+                  </div>
+                )}
+              </CardContent>
+            </Card>
+          </div>
+
+          {/* Sidebar */}
+          <div className="lg:col-span-1">
+            <Card>
+              <CardHeader>
+                <CardTitle>Order Summary</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <div className="space-y-4">
+                  <div className="flex justify-between">
+                    <span className="text-gray-600">Product:</span>
+                    <span className="font-medium">{deal.name}</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span className="text-gray-600">Price:</span>
+                    <span className="font-medium">${deal.price}</span>
+                  </div>
+                  <Separator />
+                  <div className="flex justify-between font-bold">
+                    <span>Total:</span>
+                    <span>${deal.price}</span>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card className="mt-8">
+              <CardHeader>
+                <CardTitle>Important Information</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <ul className="list-disc list-inside text-gray-600 space-y-2">
+                  <li>After payment, you'll receive an email with next steps within 24 hours</li>
+                  <li>Our service works for both students and non-students</li>
+                  <li>We accept any email address (no .edu required for verification)</li>
+                  <li>100% money-back guarantee if verification fails</li>
+                  <li>Support available at sheeredudeals@gmail.com</li>
+                  <li>Get 15% off if you buy with Bitcoin, Crypto or Sendwave (faster and cheaper fees)</li>
+                </ul>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+export default CheckoutPage
+
+

@@ -5,7 +5,7 @@ import path from 'path'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/',
+  base: '/sheerid/',
   build: {
     rollupOptions: {
       input: {
@@ -21,3 +21,4 @@ export default defineConfig({
     },
   },
 })
+
