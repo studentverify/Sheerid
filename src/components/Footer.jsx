@@ -14,7 +14,7 @@ const Footer = () => {
               </div>
               <div>
                 <h3 className="text-lg font-bold">StudentVerify</h3>
-                <p className="text-sm text-gray-400">powered by <span className="text-blue-400 font-medium">fastdiscountfinder.com</span></p>
+                <p className="text-sm text-gray-400">powered by <span className="text-blue-400 font-medium">studentverify.college</span></p>
               </div>
             </div>
             <p className="text-gray-300 mb-4 max-w-md">
@@ -94,7 +94,7 @@ const Footer = () => {
         <div className="border-t border-gray-800 mt-8 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm">
-              © 2025 StudentVerify powered by fastdiscountfinder.com. All rights reserved.
+              © 2025 StudentVerify powered by studentverify.college. All rights reserved.
             </p>
             <div className="flex space-x-4 mt-4 md:mt-0">
               <span className="text-gray-400 text-sm">

@@ -1,11 +1,11 @@
 import { useEffect } from 'react'
 
 const SEOHead = ({ 
-  title = "StudentVerify powered by sheerid.fastdiscountfinder.com - SheerID Discount Verification",
+  title = "StudentVerify - SheerID Discount Verification",
   description = "Professional SheerID student discount verification service. Get verified for exclusive student discounts from top brands. 100% success rate, 24-48 hour processing.",
   keywords = "student discounts, SheerID verification, student deals, college discounts, university savings",
-  canonicalUrl = "https://sheerid.fastdiscountfinder.com",
-  ogImage = "https://sheerid.fastdiscountfinder.com/og-image.jpg",
+  canonicalUrl = "https://studentverify.college",
+  ogImage = "https://studentverify.college/og-image.jpg",
   structuredData = null
 }) => {
   const defaultStructuredData = {
@@ -16,8 +16,8 @@ const SEOHead = ({
     "url": canonicalUrl,
     "publisher": {
       "@type": "Organization",
-      "name": "StudentVerify powered by sheerid.fastdiscountfinder.com",
-      "url": "https://sheerid.fastdiscountfinder.com"
+      "name": "StudentVerify",
+      "url": "https://studentverify.college"
     }
   }
 

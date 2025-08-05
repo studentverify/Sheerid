@@ -60,9 +60,9 @@ const ContactPage = () => {
   return (
     <>
       <SEOHead 
-        title="Contact Us - StudentVerify powered by sheerid.fastdiscountfinder.com"
+        title="Contact Us - StudentVerify"
         description="Contact StudentVerify for SheerID discount verification support. Email: sheeredudeals@gmail.com, Phone: +1(347)-766-7259 (SMS only). 24-48 hour response time."
-        canonicalUrl="https://sheerid.fastdiscountfinder.com/contact"
+        canonicalUrl="https://studentverify.college/contact"
       />
       
       <div className="min-h-screen bg-gray-50">

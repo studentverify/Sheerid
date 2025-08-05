@@ -38,7 +38,7 @@ const HomePage = () => {
     "@type": "WebPage",
     "name": "StudentVerify - SheerID Student Discount Verification Service",
     "description": "Professional SheerID student discount verification service. Get verified for exclusive student discounts from top brands like Hulu, The North Face, Autodesk, and more. Works for students and non-students, no .edu email required.",
-    "url": "https://sheerid.fastdiscountfinder.com",
+    "url": "https://studentverify.college",
     "mainEntity": {
       "@type": "Service",
       "name": "SheerID Student Verification",
@@ -62,7 +62,7 @@ const HomePage = () => {
         title="StudentVerify - SheerID Student Discount Verification Service | Get Verified in 24-48 Hours"
         description="Professional SheerID student discount verification service. Get verified for exclusive student discounts from top brands like Hulu, The North Face, Autodesk, and more. 100% success rate, 24-48 hour processing, $65 flat fee. Works for students and non-students, no .edu email required."
         keywords="student discounts, SheerID verification, student deals, college discounts, university savings, student verification service, Hulu student discount, North Face student discount, Autodesk student discount, non-student verification, any email verification"
-        canonicalUrl="https://sheerid.fastdiscountfinder.com"
+        canonicalUrl="https://studentverify.college"
         structuredData={structuredData}
       />
 
@@ -74,9 +74,7 @@ const HomePage = () => {
               Unlock Exclusive
               <span className="block text-yellow-300">Student Discounts</span>
             </h1>
-            <p className="text-xl md:text-2xl mb-8 text-blue-100 max-w-3xl mx-auto">
-              Get verified for SheerID student discounts in 24-48 hours, even if you're not a traditional student or don't have a .edu email. We accept any email address! Once verified for one, you get access to ALL available discounts for a minimum of 12 months, saving you an average of {averageSavings} annually. It's a no-brainer!
-            </p>
+            <p className="text-xl md:text-2xl mb-8 text-blue-100 max-w-3xl mx-auto">              Get verified for SheerID student discounts in 24-48 hours, even if you\'re not a traditional student or don\'t have a .edu email. We accept any email address! Once verified for one, you get access to ALL available discounts for a minimum of 12 months, saving you thousands annually on software like Lumion and Autodesk, and much more. It\'s a no-brainer!           </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link to="/deals">
                 <Button size="lg" className="bg-yellow-500 hover:bg-yellow-600 text-black font-semibold px-8 py-3">

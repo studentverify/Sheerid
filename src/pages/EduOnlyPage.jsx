@@ -20,9 +20,9 @@ const EduOnlyPage = () => {
   return (
     <>
       <SEOHead 
-        title="EDU Email Only Service - StudentVerify powered by sheerid.fastdiscountfinder.com"
+        title="EDU Email Only Service - StudentVerify"
         description="Learn about our EDU email only service and why complete SheerID verification is recommended for accessing student discounts."
-        canonicalUrl="https://sheerid.fastdiscountfinder.com/edu-only"
+        canonicalUrl="https://studentverify.college/edu-only"
       />
       
       <div className="min-h-screen bg-gray-50">

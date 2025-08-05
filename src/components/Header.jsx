@@ -24,11 +24,11 @@ const Header = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
             <div className="bg-blue-600 p-2 rounded-lg">
-              <GraduationCap className="h-8 w-8 text-white" />
+              <img src="/degree_hat.png" alt="Degree Hat" className="h-8 w-8" />
             </div>
             <div>
               <h1 className="text-xl font-bold text-gray-900">StudentVerify</h1>
-              <p className="text-xs text-gray-600">powered by <span className="text-blue-600 font-medium">fastdiscountfinder.com</span></p>
+              <p className="text-xs text-gray-600">powered by <span className="text-blue-600 font-medium">studentverify.college</span></p>
             </div>
           </Link>
 

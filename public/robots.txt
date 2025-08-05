@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://sheerid.fastdiscountfinder.com/sitemap.xml
+Sitemap: https://studentverify.college/sitemap.xml
 
 # Crawl-delay for respectful crawling
 Crawl-delay: 1
