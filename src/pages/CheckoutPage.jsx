@@ -170,12 +170,12 @@ const CheckoutPage = () => {
                       {/* Crypto */}
                       <div className="border rounded-lg p-4 bg-white">
                         <h4 className="font-semibold text-gray-900 mb-2">Crypto Payment</h4>
-                        <p className="text-gray-600 mb-2"><strong>ETH:</strong> Send the exact discounted amount worth of ETH to the address: <code className="bg-gray-200 p-1 rounded break-all">0xPlaceholderETHAddress</code></p>
+                        <p className="text-gray-600 mb-2"><strong>ETH:</strong> Send the exact discounted amount worth of ETH to the address: <code className="bg-gray-200 p-1 rounded break-all">0x0D8C7a1BCC99EdE401680Eb72877650a5c480D29</code></p>
                         <div className="flex justify-center mb-2">
                           <img src="/images/eth_qr.png" alt="ETH QR Code" className="w-32 h-32" />
                         </div>
 
-                        <p className="text-gray-600 mb-2"><strong>BTC:</strong> Send the exact discounted amount worth of BTC to the address: <code className="bg-gray-200 p-1 rounded break-all">bc1qPlaceholderBTCAddress</code></p>
+                        <p className="text-gray-600 mb-2"><strong>BTC:</strong> Send the exact discounted amount worth of BTC to the address: <code className="bg-gray-200 p-1 rounded break-all">bc1qashe27a9sk3ady5f2h5j7q0h6l4t8v39ycekld</code></p>
                         <div className="flex justify-center mb-2">
                           <img src="/images/btc_qr.png" alt="BTC QR Code" className="w-32 h-32" />
                         </div>

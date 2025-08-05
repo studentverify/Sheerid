@@ -74,8 +74,10 @@ const HomePage = () => {
               Unlock Exclusive
               <span className="block text-yellow-300">Student Discounts</span>
             </h1>
-            <p className="text-xl md:text-2xl mb-8 text-blue-100 max-w-3xl mx-auto">              Get verified for SheerID student discounts in 24-48 hours, even if you\'re not a traditional student or don\'t have a .edu email. We accept any email address! Once verified for one, you get access to ALL available discounts for a minimum of 12 months, saving you thousands annually on software like Lumion and Autodesk, and much more. It\'s a no-brainer!           </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <p className="text-xl md:text-2xl mb-8 text-blue-100 max-w-3xl mx-auto">
+              A dime saved is a dime earned.
+            </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link to="/deals">
                 <Button size="lg" className="bg-yellow-500 hover:bg-yellow-600 text-black font-semibold px-8 py-3">
                   Browse Student Deals
