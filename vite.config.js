@@ -5,7 +5,7 @@ import path from 'path'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/sheerid/',
+  base: '/',
   build: {
     rollupOptions: {
       input: {
@@ -20,5 +20,10 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  server: {
+    host: '0.0.0.0',
+    port: 3000,
+    allowedHosts: ['3000-ij2xdlcm29tg7a04koxz5-f78cabac.manusvm.computer']
+  }
 })
 
